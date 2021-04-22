@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Patrick+Hand&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+}
+
+li {
+    list-style: none;
+}
+
+.inlineParents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftSide {
+    width: 50%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+
+.rightSide {
+    width: 50%;
+    height:50vh;
+    overflow: hidden;
+}
+
+.banner1 {
+    background: url('../img/series.jpg');
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner1:hover {
+    transform: scale(1.3);
+}
+
+.banner1::before{
+    content: 'Series';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner1:hover::before{
+    content: 'Series';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
+
+.banner2 {
+    background: url('../img/kdrama.jpg');
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner2:hover {
+    transform: scale(1.3);
+}
+
+.banner2::before{
+    content: 'K-dramas';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner2:hover::before{
+    content: 'K-dramas';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
+
+
+
+.banner3 {
+    background: url('../img/horror.jpg');
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner3:hover {
+    transform: scale(1.3);
+}
+
+.banner3::before{
+    content: 'Horror movies';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner3:hover::before{
+    content: 'Horror movies';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
+
+
+.banner4 {
+    background: url('../img/comedy.jpg');
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner4:hover {
+    transform: scale(1.3);
+}
+
+.banner4::before{
+    content: 'Comedies';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner4:hover::before{
+    content: 'Comedies';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
+
+
+.banner5 {
+    background: url('../img/DocumentaryFilms.jpg');
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner5:hover {
+    transform: scale(1.3);
+}
+
+.banner5::before{
+    content: 'Documentary films';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner5:hover::before{
+    content: 'Documentary films';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
+
+
+.banner6 {
+    background: url('../img/sadmovies.jpg');
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner6:hover {
+    transform: scale(1.3);
+}
+
+.banner6::before{
+    content: 'Sad movies';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner6:hover::before{
+    content: 'Sad movies';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
+
+.banner7 {
+    background: url('../img/animatedmovies.jpg');
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner7:hover {
+    transform: scale(1.3);
+}
+
+.banner7::before{
+    content: 'Animated movies';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner7:hover::before{
+    content: 'Animated movies';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
+
+.banner8 {
+    background: url('../img/anime.png') ;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.banner8:hover {
+    transform: scale(1.3);
+}
+
+.banner8::before{
+    content: 'Anime';
+    color: white;
+    font-size: 40px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.banner8:hover::before{
+    content: 'Anime';
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    position: absolute;
+    text-align: center;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    transform: rotate(-40deg);
+}
